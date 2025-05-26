@@ -99,16 +99,10 @@ print(f"After iterating as instructed, \nx = {x:.4f}")
 print("\n")
 
 
-"""
-    Question 6 : 
-    
-Write a Python program that does the following:
-i. Uses a loop for a user to continually input 5 values to populate an
-array.
-ii. Calculates and displays the average of the values input into the
-array.
-
-    """
+# Question 6 : 
+# Write a Python program that does the following:
+# i. Uses a loop for a user to continually input 5 values to populate an array.
+# ii. Calculates and displays the average of the values input into the array.
 
 # Create empty list to store input values.
 numbers = []
@@ -122,7 +116,7 @@ for i in range(1, 6, 1):
         except ValueError:
             print("Invalid input! Kindly try again.")
 
-# Calculate average
+# Calculate the average
 average = sum(numbers) / len(numbers)
 
 # Final result.
