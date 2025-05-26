@@ -12,7 +12,7 @@ print("\n")
 # Question 2 : Write a program that asks a user to input the radius then the program
 # calculates the volume of a sphere (the formula for the volume is 4/3πr^3). 
 # Use the exponential operator in python to compute (r3).
-pi = 3.14159265358979
+pi = 3.141592653589
 while True:
     try:
         user_radius = float(input("Please enter the radius of the sphere: "))
